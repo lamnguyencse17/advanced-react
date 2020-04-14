@@ -3,9 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title> Advanced React Application Example</title>
+        <script type="text/javascript">
+            window.initialData = <%- JSON.stringify(initialData) -%>
+        </script>
     </head>
     <body>
-        <div id="root"><%- initialContent %></div>
+        <div id="root"><%- initialMarkup %></div>
         <script src="/bundle.js" charset="utf-8"></script>
     </body>
 </html>
