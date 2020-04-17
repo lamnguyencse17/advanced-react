@@ -22,7 +22,7 @@ module.exports = {
       'react/no-unescaped-entities': ['off'],
       'linebreak-style': ['error', 'windows'],
       semi: ['error', 'always'],
-      'no-console': ['warn', {allow: ['clear', 'info', 'error', 'dir', 'trace']}],
+      'no-console': ['warn', {allow: ['clear', 'info', 'error', 'dir', 'trace', 'log']}],
       curly: 'error',
       'no-else-return': 'error',
       'no-unneeded-ternary': 'error',
